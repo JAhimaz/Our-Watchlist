@@ -1,0 +1,28 @@
+@import "./root.css";
+
+.header {
+    padding: 1.5em;
+    align-items: center;
+}
+
+.title, .subTitle {
+    line-height: .3em;
+    text-align: left;
+    /* padding-left: 0.2em; */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--highlight);
+}
+
+.subTitle {
+    color: var(--subHighlight);
+    font-size: 1em;
+}
+
+.icon {
+    color: var(--highlight);
+    font-size: 4.5rem !important;
+}

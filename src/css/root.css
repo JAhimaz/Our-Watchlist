@@ -1,0 +1,11 @@
+:root {
+    --background: none;
+    --foreground: none;
+    --subject: none;
+    --subjectText: none;
+    --unselected: none;
+    --unselectedText: none;
+    --highlight: none;
+    --subHighlight: none;
+    --plainText: none;
+}
