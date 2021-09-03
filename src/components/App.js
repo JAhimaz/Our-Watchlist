@@ -4,6 +4,7 @@ import '../css/root.css';
 import { darkTheme, lightTheme } from '../Themes';
 
 import HeaderBar from './HeaderBar';
+import MovieList from './MovieList';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <HeaderBar />
+        <MovieList />
       </header>
     </div>
   );

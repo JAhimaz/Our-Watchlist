@@ -1,0 +1,8 @@
+@import "./root.css";
+
+.movieContainer {
+    /* background: var(--foreground); */
+    overflow-y: scroll;
+    height: 50vh;
+    margin-top: 1em;
+}

@@ -1,0 +1,33 @@
+
+.movieItemContainer {
+    margin-top: 0.5em;
+    align-items: center;
+    background-color: var(--subject);
+    border-radius: 10px;
+    padding: 0.25em 0.5em 0.25em 1em;
+}
+
+
+
+.movieItemTitle {
+    text-align: left;
+    color: var(--subjectText);
+    text-overflow: ellipsis;
+}
+
+.movieItemYear {
+    text-align: left;
+    color: var(--unselectedText);
+}
+
+.movieItemTitle, .movieItemYear {
+    line-height: 0.3em;
+}
+
+.viewedIcon {
+    color: var(--subjectText);
+}
+
+.deleteIcon {
+    color: var(--unselectedText);
+}
