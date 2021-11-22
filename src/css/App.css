@@ -1,16 +1,36 @@
 @import "./root.css";
 
+
+html, body, #root {
+  height: 100%;
+}
+
+.top {
+  min-height: 60%;
+  min-width: 100%;
+  display: contents;
+}
+
+.bottom {
+  margin-top: 5vh;
+  padding: 2vh;
+  min-height: 40%;
+  min-width: 100%;
+  background-color: var(--foreground);
+}
+
 .App {
   text-align: center;
-  
+  height: 100%;
 }
 
 .App-header {
   background-color: var(--background);
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
   /* justify-content: center; */
 }
 
@@ -19,6 +39,54 @@
 }
 
 .InputFieldDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gridInput {
+  border: 2px solid var(--highlight);
+  padding: 2vh;
+  border-radius: 10px;
+  background-color: var(--unselected);
+  max-width: 600px;
+  
+}
+
+.MuiInputBase-input {
+  background-color: var(--subject) !important;
+  color: var(--subjectText) !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+  width: 100%;
+}
+
+.MuiInput-underline::before, .MuiInput-underline::after {
+  border-bottom: none !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+ color: var(--highlight) !important;
+}
+
+.MuiFormControl-root {
+  width: 100% !important;
+}
+
+.MuiButton-contained {
+  width: 100%;
+  height: 100%;
+  background-color: var(--highlight) !important;
+  color: black !important;
+  text-transform: none !important;
+  font: inherit !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+.svgWave {
+  display: block;
   background-color: var(--foreground);
-  height: auto;
+  height: 30%;
+  width: 100%;
 }
